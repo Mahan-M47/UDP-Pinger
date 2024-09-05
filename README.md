@@ -2,7 +2,7 @@
 
 The goal of this project is to build a local ping server and allow clients to ping the server. Unlike the standard ICMP protocol, this implementation uses UDP as the transport-layer protocol, where packet loss may occur. The client will display statistics such as average Round Trip Time (RTT) and packet loss percentage.
 
-This repository contains two main Python scripts: `ServerMain.py` for the server and `ClientMain.py` for the client.
+This repository contains two main Python scripts: `ServerMain.py` for the server and `ClientMain.py` for the client. This project was created for my Computer Networks course in Spring 2024.
 
 ### Key Features:
 - Simulated packet loss to demonstrate UDP's unreliability.
